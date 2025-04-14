@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <script>
+      // const heading = React.createElement(
+      //   "h1",      // Type of element to create — here, an <h1> tag
+      //   {},        // Props (attributes) to pass to the element — here, empty (no class, id, etc.)
+      //   "Hello React" // Children (inner content) — here, just the text "Hello React"
+      // );
+      // 1. Create a React element: <h1>Hello React</h1>
+      const heading = React.createElement("h1", {}, "Hello React");
+
+      // 2. Create a root to render React components into the DOM
+      const root = ReactDOM.createRoot(document.getElementById("root"));
+
+      // 3. Render the heading element inside the root div
+      root.render(heading);
+    </script>
+  </body>
+</html>
