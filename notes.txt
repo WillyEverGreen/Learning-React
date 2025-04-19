@@ -1,0 +1,5 @@
+So there are two types of packages(dependencies)
+
+Dev dependencies- requires in development phase,
+
+Normal dependencies- can be used in production phase

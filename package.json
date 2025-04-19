@@ -1,0 +1,28 @@
+{
+  "name": "learning-react",
+  "version": "1.0.0",
+  "description": "Learning React from aditya saini",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WillyEverGreen/Learning-React.git"
+  },
+  "keywords": [
+    "learn-react"
+  ],
+  "author": "Sai Balkawade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WillyEverGreen/Learning-React/issues"
+  },
+  "homepage": "https://github.com/WillyEverGreen/Learning-React#readme",
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}

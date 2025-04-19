@@ -1,0 +1,34 @@
+✅ 1. git init
+📦 Starts a new Git repository in your current folder.
+It’s like telling Git:
+
+“Hey, I want to start tracking this project.”
+
+✅ 2. git branch -M main
+🔀 Renames the current branch to main
+(M replaces any old branch name like master)
+
+“Let’s use main as the main branch name.”
+
+✅ 3. git add .
+➕ Adds all your files to Git's staging area.
+
+“Prepare everything to be saved (committed).”
+
+✅ 4. git commit -m "your message"
+📝 Saves a snapshot of your code with a message.
+
+“Save this version and describe what I did.”
+
+✅ 5. git remote add origin <your-repo-URL>
+🌐 Connects your local project to a remote GitHub repository.
+Replace <your-repo-URL> with your actual GitHub repo link.
+eg:
+git remote add origin https://github.com/your-username/your-repo.git 
+
+✅ 6. git push origin main
+🚀 Sends your code to GitHub.
+
+“Push my local main branch to GitHub’s main branch.”
+
+
